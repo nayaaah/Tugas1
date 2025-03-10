@@ -70,3 +70,43 @@ table {
     background-color: green;
 }
 
+/* style untuk hp */
+body {
+    background-color: pink;
+}
+
+img {
+    width: 3%;
+}
+
+.p-2 {
+    padding: 20px;
+}
+
+/* style untuk tablet */
+@media screen and (min-width: 600px) {
+    body {
+        background-color: lightcoral;
+    }
+
+    .col-md-6 {
+        width: 50%;
+        background-color: yellow;
+        float: left;
+    }
+}
+
+/* style untuk desktop */
+@media screen and (min-width: 992px) {
+    body { /* body disebut element selector */
+        background-color: lightsalmon;
+    }
+    /*style colektor*/
+    .col-lg-3 {
+        width: 50%;
+        background-color: yellow;
+    /* gunakan float untuk membuat kolom menjadi ke samping kiri */
+        float: left;
+    } 
+
+}
