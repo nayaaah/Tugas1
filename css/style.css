@@ -1,6 +1,6 @@
 /* element selector */
 body {
-    background-color: pink;
+    background-color: lightgoldenrodyellow;
     font-family: 'calibri';
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 .bg-primary {
-    background-color: blue;
+    background-color: lightgray;
 }
 
 .p-1 {

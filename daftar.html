@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE BENGKEL</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <hr>
+    <a href="#">
+        <img src="images/sports-car.png" alt="" width="22">NAS SERVICE
+    </a> |
+    <a href="index.html">
+        <img src="images/home-icon-silhouette.png" alt="" width="18">Home
+    </a> |
+    <a href="mekanik.html">
+        <img src="images/user.png" alt="" width="18">Mekanik
+    </a> |
+    <a href="hubungi.html">
+        <img src="images/telephone-call.png" alt="" width="18">Kontak 
+    </a> |
+    <a href="daftar.html">
+        <img src="images/edit.png" alt="" width="18">Daftar
+    </a>
+<hr>
+<h3>Daftar Sekarang untuk membuat janji temu dengan kami!</h3>
+<form action="proses.php" method="post">
+   Nama <br>
+   <input type="text" name="nama" id="nama" required><br>
+   Email <br>
+   <input type="email" name="email" id="email"><br>
+   Plat Kendaraan <br>
+   <input type="plat" name="plat" id="plat"><br>
+   Tipe Kendaraan <br>
+   <input type="type" name="type" id="type"><br>
+   Layanan Jasa <br>
+   <input type="radio" name="lj" id="" value="L"> Ganti Oli
+   <input type="radio" name="lj" id="" value="P"> Service <br>
+   Kode Mekanik <br>
+   <select name="kode_mekanik" id="kode_mekanik">
+       <option value="MK">MK001</option>
+       <option value="MK">MK002</option>
+       <option value="MK">MK003</option>
+       <option value="MK">MK004</option>
+   </select> <br>
+   Tanggal Datang <br>
+   <input type="date" name="tanggal_datang" id="tanggal_datang"> <br> <br>
+   <button type="submit">Simpan</button>
+</form>
